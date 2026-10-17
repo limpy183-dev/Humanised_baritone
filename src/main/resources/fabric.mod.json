@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "humanised_baritone",
+	"version": "${version}",
+	"name": "Humanised Baritone",
+	"description": "A full-featured pathfinding / automation bot whose every movement, look and click is humanised.",
+	"authors": ["Humanised Baritone"],
+	"license": "MIT",
+	"icon": "assets/humanised_baritone/icon.png",
+	"environment": "client",
+	"mixins": ["humanised_baritone.mixins.json"],
+	"entrypoints": {
+		"client": ["com.humanisedbaritone.HumanisedBaritone"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
